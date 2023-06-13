@@ -32,7 +32,7 @@ int main(int argc, char *argv[])
 
     servIP = argv[1]; /* First arg: server IP address (dotted quad) */
 
-    servPort = atoi(argv[2]); /* Use given port, if any */
+    servPort = atoi(argv[2]); 
 
     /* Create a datagram/UDP socket */
     if ((sock = socket(PF_INET, SOCK_DGRAM, IPPROTO_UDP)) < 0)
