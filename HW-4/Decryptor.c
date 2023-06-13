@@ -51,7 +51,7 @@ int main(int argc, char *argv[])
         DieWithError("bind() failed");
 
     while (true)
-    { /* Run forever */
+    { 
         /* Set the size of the in-out parameter */
         cliAddrLen = sizeof(clntAddr);
         
